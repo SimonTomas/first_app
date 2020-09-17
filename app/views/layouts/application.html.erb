@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <nav class="navbar-inverse">
+      <%= link_to 'Pagina Uno', root_path%>
+      <%= link_to 'Pagina Dos', pages_two_path%>
+      <%= link_to 'Pagina Tres', pages_three_path%>
+    </nav>
     <%= yield %>
   </body>
 </html>
